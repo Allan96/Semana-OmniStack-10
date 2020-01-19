@@ -3,10 +3,7 @@ const mongoose = require('mongoose');
 const routes = require('./routes');
 const app = express();
 
-mongoose.connect('', {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-});
+
 
 app.use(express.json());
 app.use(routes);
