@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const routes = require('./routes');
 const app = express();
 
-mongoose.connect('mongodb+srv://root:root@cluster0-wghrk.mongodb.net/week10?retryWrites=true&w=majority', {
+mongoose.connect('', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
